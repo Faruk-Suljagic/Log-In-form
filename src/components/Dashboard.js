@@ -18,11 +18,10 @@ export default function Dashboard() {
       setError("Failed to Log out");
     }
   }
+  // #Pocetna strana nakon Log In-a
+  // #Izmjeniti da bude Home page ili da ostane Dashboard
   return (
     <>
-      #Pocetna strana nakon Log In-a
-      {""}
-      #Izmjeniti da bude Home page ili da ostane Dashboard
       <Card>
         <Card.Body>
           <h2 className="text-center mb-4">Profile</h2>
